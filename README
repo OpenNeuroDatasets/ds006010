@@ -24,8 +24,7 @@ fMRI dataset of N=20 adult participants (`sub-2xx`, numbers between 204 and
 223), and N=22 children (`sub-3xx`, numbers between 301 and 325).
 
 * The code for the analyses is provided at
-  [https://github.com/mathias-sm/AGeometricShapeRegularityEffectHumanBrain](https://github.com/mathias-sm/AGeometricShapeRegularityEffectHumanBrain)
-
+  [https://github.com/mathias-sm/AGeometricShapeRegularityEffectHumanBrain](https://github.com/mathias-sm/AGeometricShapeRegularityEffectHumanBrain)  
   However, the analyses work from already preprocessed data. Since there is no
   custom code per se for the preprocessing, I have not included it in the
   repository. To preprocess the data as was done in the published article, here
@@ -33,8 +32,7 @@ fMRI dataset of N=20 adult participants (`sub-2xx`, numbers between 204 and
     * fMRIPrep version: `20.0.5`
     * fMRIPrep command: `/usr/local/miniconda/bin/fmriprep /data /out participant --participant-label <label> --output-spaces MNI152NLin6Asym:res-2 MNI152NLin2009cAsym:res-2`
 * Defacing has been performed with `bidsonym` running the `pydeface` masking,
-  and `nobrainer` brain registraction pipeline.
-
+  and `nobrainer` brain registraction pipeline.  
   The published analyses have been performed on the non-defaced data. I have
   checked for data quality on all participants after defacing. In specific
   cases, I may be able to request the permission to share the original,
@@ -47,7 +45,6 @@ fMRI dataset of N=20 adult participants (`sub-2xx`, numbers between 204 and
     1. `sub-313` and `sub-316` are missing one run of the localizer each
     2. `sub-316` has no data at all for the geometry
     3. `sub-308` has eno useable data for the intruder task
-
   Since all of these still have some data to contribute to either task, all
   available files were kept on this dataset. The analysis code reflects these
   inconsistencies where required with specific exceptions.
