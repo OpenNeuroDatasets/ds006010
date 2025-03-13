@@ -19,7 +19,7 @@ The perception and production of regular geometric shapes is a characteristic tr
 
 ## Notes about this dataset
 
-We separately share the MEG dataset at [UPDATE](UPDATE). Below are some notes about the
+We separately share the MEG dataset at [https://openneuro.org/datasets/ds006012](https://openneuro.org/datasets/ds006012). Below are some notes about the
 fMRI dataset of N=20 adult participants (`sub-2xx`, numbers between 204 and
 223), and N=22 children (`sub-3xx`, numbers between 301 and 325).
 
